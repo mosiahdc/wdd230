@@ -95,20 +95,15 @@ nav li:hover {
     color: #000000;
 }
 
-.colored-heading-1,
-.colored-heading-2,
+.colored-heading,
 .colored-p {
     padding: 10px;
 
 }
 
-.colored-heading-1 {
+.colored-heading {
     background-color: #233858;
     color: #FFFFFF;
-}
-.colored-heading-2 {
-    background-color: #161616;
-    color: #f6f6f6;
 }
 
 .colored-p {
