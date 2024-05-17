@@ -32,20 +32,46 @@ header span {
     margin: auto;
 }
 
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background-color: #DFD0B8;
+	color: #000;
+ 	position: relative;
+	left: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "x";
+}
+
 nav {
+    display: flex;
+	flex-direction: column;
+    list-style: none;
     background-color: #DFD0B8;
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-}
-
 nav a {
     padding: 7px 0;
-    display: block;
-    text-decoration: none;
+    display: none;
     color: #153448;
+    flex-grow: 4;
+    text-align: center;
+	text-decoration: none;
 }
 
 nav a:hover {
@@ -53,9 +79,13 @@ nav a:hover {
     color: #fff;
 }
 
-nav .active > a {
+nav .active {
     background-color: #153448;
     color: #fff;
+}
+
+.open a {
+	display: block;
 }
 
 main {
@@ -96,6 +126,10 @@ main h1 {
 
 .card p {
     text-align: center;
+}
+
+.card a{
+    color: #000;
 }
 
 footer p {
