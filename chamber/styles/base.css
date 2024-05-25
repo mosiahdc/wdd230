@@ -153,6 +153,7 @@ nav .blank:hover {
 }
 
 .card h2 {
+    padding: 5px;
     background-color: #fff;
     border-bottom: 1px solid black;
     font-size: 17px;
@@ -203,6 +204,10 @@ footer p {
     margin: 10px 0;
 }
 
+.sidebar-title {
+    text-align: center;
+    margin: 25px;
+}
 
 .sidebar ul > li {
     list-style: none;
@@ -210,7 +215,7 @@ footer p {
 
 #discover-container {
     margin: 1rem 2rem;
-    
+
 }
 
 #discover-container .main-content img {
@@ -222,13 +227,6 @@ footer p {
     display: block;
     text-align: center;
     margin-bottom: 20px;
-}
-
-
-#discover-container .sidebar section h2,
-#discover-container .sidebar section h3 {
-    text-align: center;
-    padding-bottom: 15px;
 }
 
 #discover-container article h4 {
