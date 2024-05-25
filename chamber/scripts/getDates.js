@@ -10,7 +10,7 @@ const displayLastModified = () => {
     
     const pLastModified = document.getElementById("lastModified");
 
-    pLastModified.textContent = `Last Modification: ${lastModified}`;
+    pLastModified.textContent = `John Ralph Mosiah Dela Cruz | WDD 230 | Last Modified: ${lastModified}`;
 }
 
 const displayInfo = () => {

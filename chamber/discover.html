@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Ralph Mosiah Dela Cruz - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - John Ralph Mosiah Dela Cruz- course assignment portal">
+    <meta name="author" content="John Ralph Mosiah Dela Cruz">
+
+    <meta property="og:title" content="John Ralph Mosiah Dela Cruz - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="images/negros-capitol-header.jpg">
+    <meta property="og:url" content="https://mosiahdc.github.io/wdd230/">
+
+    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/negros-chamber.ico">
+</head>
+
+<body>
+
+    <header>
+        <span>Negros Chamber of Commerce</span>
+    </header>
+    
+    <nav>
+        <button id="menu"></button>
+            <a href="index.html">HOME</a>
+            <a href="discover.html" class="active">DISCOVER</a>
+            <a href="">DIRECTORY</a>
+            <a href="" class="blank"></a>
+            <a href="">JOIN</a>
+    </nav>
+
+    <main id="discover-container">
+        <section class="sidebar">
+            <h2>About Negros</h2>
+            <h3>Don't miss it in Negros</h3>
+
+            <article>
+                <h4>Demographics</h4>
+                <p>
+                Negros is the fourth largest and third most populous island in the Philippines, with a total land area of 13,309 km. The coastal zone of the southern part of Negros is identified as a site of highest marine biodiversity importance in the Coral Triangle
+                </p>
+            </article>
+
+            <article>
+                <h4>Events</h4>
+                <ul>
+                    <li>
+                        1. Panaad sa Negros Festival - Panaad is the Hiligaynon word for "vow" or "promise" coming from the root-word saad; the festival is a form of thanksgiving to Divine Providence and commemoration of a vow in exchange for a good life.
+                    </li>
+                    <BR>
+                    <li>
+                        2. Masskara Festival - Prominent feature of the festival and is always adorned with smiling faces, giving rise to Bacolod being called the "City of Smiles".
+                    </li>
+                    <BR>
+                    <li>
+                        3. Dinagsa Festival - Features Ati Tribes for the main event, the Street, and Arena Dance Competition. People attending the street dance competition uses a white shirt to show off various colors of paint they got by attending the festivity.
+                    </li>
+                </ul>
+            
+            </article>
+
+        </section>
+
+        <section class="main-content">
+
+            <picture>
+                <img src="images/ruins.webp" alt="Ruins" loading="lazy" width="670" height="450">
+            </picture>
+            <span class="caption">The Ruins</span>
+
+            <picture>
+                <img src="images/napoleones.webp" alt="Napoleones" loading="lazy" width="670" height="450">
+            </picture>
+            <span>Dessert</span>
+
+            <picture>
+                <img src="images/magikland.webp" alt="Magikland" loading="lazy" width="670" height="450">
+            </picture>
+            <span>Themed Park</span>
+
+            <picture>
+                <img src="images/capitol.webp" alt="Negros Occidental Capitol" loading="lazy" width="670" height="450">
+            </picture>
+            <span>Capitol</span>
+
+            <picture>
+                <img src="images/negros-showroom.webp" alt="The Negros Showroom" loading="lazy" width="670" height="450">
+            </picture>
+            <span>Negros Local Store</span>
+
+            <picture>
+                <img src="images/public-market.webp" alt="San Carlos Public Market" loading="lazy" width="670" height="450">
+            </picture>
+            <span>Public Market</span>
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Copyright 2024 | Negros Chamber of Commerce</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/getDates.js"></script>
+
+</body>
+</html>

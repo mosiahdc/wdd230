@@ -28,7 +28,8 @@
         font-size: 1.5rem;
     }
     
-    .cards {
+    .cards,
+    #discover-container {
         grid-template: 1fr / 1fr 1fr;
         margin: 2rem 2rem;
     }
@@ -47,4 +48,20 @@
     footer p {
         font-size: 1rem;
     }
+
+    #discover-container {
+        margin: 2rem 4rem;
+        gap: 30px;
+    }
+
+    #discover-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main-content picture:hover {
+        box-shadow: 0 0 50px #161616;
+    }
+
+    
 }

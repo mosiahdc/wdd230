@@ -136,7 +136,8 @@ nav .blank:hover {
     color: white;
 }
 
-.cards {
+.cards,
+#discover-container {
     display: grid;
     margin: 0 0.5rem;
 }
@@ -200,4 +201,46 @@ footer {
 
 footer p {
     margin: 10px 0;
+}
+
+
+.sidebar ul > li {
+    list-style: none;
+}
+
+#discover-container {
+    margin: 1rem 2rem;
+    
+}
+
+#discover-container .main-content img {
+    width: 100%;
+    height: auto;
+}
+
+.main-content span {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#discover-container .sidebar section h2,
+#discover-container .sidebar section h3 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#discover-container article h4 {
+    font-size: 1.5rem;
+}
+
+#discover-container article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    background-color: #f6f6f6;
+    padding: 1rem;
+    border-radius: 25px;
 }
