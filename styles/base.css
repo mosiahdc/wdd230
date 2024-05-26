@@ -79,7 +79,8 @@ nav a:hover {
     color: #fff;
 }
 
-nav .active {
+nav .active,
+nav .active:hover {
     background-color: #153448;
     color: #fff;
 }
@@ -90,7 +91,7 @@ nav .active {
 
 main {
     display: grid;
-    margin: 0 0.5rem;
+    padding: 0 0.5rem;
 }
 
 main h1 {
@@ -102,7 +103,7 @@ main h1 {
 }
 
 .card {
-    color: red;
+    color: #000;
     border: 1px solid black;
     border-radius: 5px;
     overflow: hidden;
@@ -130,7 +131,7 @@ main h1 {
 }
 
 .card a{
-    color: red;
+    color: #000;
 }
 
 footer p {

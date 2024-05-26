@@ -19,7 +19,7 @@
 
     main {
         grid-template: auto auto / auto;
-        margin: 0 2rem;
+        padding: 0 2rem;
     }
 
     main h1 {

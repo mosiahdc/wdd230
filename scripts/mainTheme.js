@@ -5,8 +5,6 @@ const mainH1 = main.querySelector("h1");
 const mainH2 = main.querySelectorAll("h2");
 
 const card = document.querySelectorAll(".card");
-const cardText = card.querySelectorAll(":scope > a");
-
 
 
 modeButton.addEventListener("click", () => {
@@ -14,6 +12,7 @@ modeButton.addEventListener("click", () => {
     if (modeButton.textContent == "🌓" || modeButton.textContent == "🌑") {
         modeButton.textContent = "🌕";
         main.style.background = "#153448";
+        main.style.color = "#fff";
 
         mainH1.style.borderBottom = "1px solid white";
 
@@ -21,11 +20,14 @@ modeButton.addEventListener("click", () => {
             mainH2[i].style.background = "#fff";
             mainH2[i].style.color = "#153448";
 
-            card[i].style.color = "#ffffff";
-        }
+            card[i].style.color = "#fff";
+            card[i].style.border = "1px solid #fff";
 
-        for (let i = 0; i < cardText.length; i++) {
-            cardText[i].style.color = "#ffffff";
+            const cardLinks = card[i].querySelectorAll("a");
+            
+            for (let x = 0; x < cardLinks.length; x++) {
+                cardLinks[x].style.color = "#fff";
+            }
         }
         
     } else {
@@ -40,6 +42,13 @@ modeButton.addEventListener("click", () => {
             mainH2[i].style.color = "#fff";
 
             card[i].style.color = "#000";
+            card[i].style.border = "1px solid #000";
+
+            const cardLinks = card[i].querySelectorAll("a");
+           
+            for (let x = 0; x < cardLinks.length; x++) {
+                cardLinks[x].style.color = "#000";
+            }
         }
     }
 
