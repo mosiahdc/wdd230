@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --zebra: hsl(0, 0%, 93%, 1);
+    --grey: hsl(0, 0%, 83%, 1);
+
+    --primary-bg-color: #153448;
+    --secondary-bg-color: #dfd0b8;
+
+    --primary-text-color: #000;
+    --secondary-text-color: #fff;
+}
+
+table {
+    margin: 30px auto;
+    border: thin solid var(--zebra);
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-size: .85rem;
+}
+
+th, td {
+    padding: 10px 15px;
+    border: thin solid var(--grey);
+}
+
+th {
+    background-color: var(--secondary-bg-color);
+    border-top: none;
+    color: var(--primary-text-color);
+}
+
+td {
+    text-align: center;
+}
+
+thead tr th:first-child {
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+    border: none;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra);
+}
