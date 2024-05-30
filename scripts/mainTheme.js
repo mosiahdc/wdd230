@@ -1,4 +1,5 @@
 const modeButton = document.querySelector("#mode");
+const body = document.querySelector("body")
 const main = document.querySelector("main");
 
 const mainH1 = main.querySelector("h1");
@@ -11,9 +12,11 @@ modeButton.addEventListener("click", () => {
 
     if (modeButton.textContent == "🌓" || modeButton.textContent == "🌑") {
         modeButton.textContent = "🌕";
-        main.style.background = "#153448";
-        main.style.color = "#fff";
 
+        body.style.background = "#153448";
+        main.style.background = "#153448";
+        
+        mainH1.style.color = "#fff";
         mainH1.style.borderBottom = "1px solid white";
 
         for (let i = 0; i < card.length; i++) {
@@ -22,6 +25,8 @@ modeButton.addEventListener("click", () => {
 
             card[i].style.color = "#fff";
             card[i].style.border = "1px solid #fff";
+
+            card[i].style.boxShadow = "0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.3)";
 
             const cardLinks = card[i].querySelectorAll("a");
             
@@ -32,9 +37,10 @@ modeButton.addEventListener("click", () => {
         
     } else {
         modeButton.textContent = "🌑";
+        body.style.background = "#fff";
         main.style.background = "#fff";
-        main.style.color = "#000";
-
+        
+        mainH1.style.color = "#000";
         mainH1.style.borderBottom = "1px solid black";
 
         for (let i = 0; i < card.length; i++) {
@@ -43,6 +49,8 @@ modeButton.addEventListener("click", () => {
 
             card[i].style.color = "#000";
             card[i].style.border = "1px solid #000";
+
+            card[i].style.boxShadow = "0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3)";
 
             const cardLinks = card[i].querySelectorAll("a");
            

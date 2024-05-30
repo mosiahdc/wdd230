@@ -44,38 +44,62 @@
     </nav>
 
     <main>
-        <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card">
-            <h2>Learning Activities</h2>
-            <ul>
-                <li>Week 01:
-                    <a href="week01/holygrail.html">Layout</a> |
-                    <a href="week01/media-query.html">Media Query</a> |
-                    <a href="https://codepen.io/mosiahdc/pen/abxgOEr">JS Pen</a>
-                </li>
-                <li>Week 02:
-                    <a href="week02/design.html">Design</a> |
-                    <a href="https://codepen.io/mosiahdc/pen/BaeoqjJ"> Hamburger</a> |
-                    <a href="week02/bom.html">DOM Manipulation</a>
-                </li>
-                <li>Week 03:
-                    <a href="week03/images/landscape.webp">WebP</a> |
-                    <a href="week03/lazyload.html">Lazy Load</a> |
-                    <a href="week03/responsive-images.html"> Responsive Image</a> |
-                    <a href="week03/bom.html">Web Storage</a>
-                </li>
-                <li>Week 04: <a href=""></a></li>
-                <li>Week 05: <a href=""></a></li>
-                <li>Week 06: <a href=""></a></li>
-            </ul>
-        </section>
-        <section class="card">
-            <h2>Information</h2>
-            <p>Negros Occidental, Philippines</p>
-            <p>Sunshine</p>
-            <p>Page Visits: 1</p>
-        </section>
+        <div id="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+                <img src="images/hero-large.webp" alt="Manila Philippines Temple" loading="lazy" width="2" height="1">
+            </picture>
 
+            <div class="herolabel">
+                <p>Manila Philippines Temple</p>
+            </div>
+        </div>
+        
+        <h1>WDD 230: Web Frontend Development</h1>
+
+        <section id="cards">
+            <div class="card">
+                <h2>Learning Activities</h2>
+                <ul>
+                    <li>Week 01:
+                        <a href="week01/holygrail.html">Layout</a> |
+                        <a href="week01/media-query.html">Media Query</a> |
+                        <a href="https://codepen.io/mosiahdc/pen/abxgOEr">JS Pen</a>
+                    </li>
+                    <li>Week 02:
+                        <a href="week02/design.html">Design</a> |
+                        <a href="https://codepen.io/mosiahdc/pen/BaeoqjJ"> Hamburger</a> |
+                        <a href="week02/bom.html">DOM Manipulation</a>
+                    </li>
+                    <li>Week 03:
+                        <a href="week03/images/landscape.webp">WebP</a> |
+                        <a href="week03/lazyload.html">Lazy Load</a> |
+                        <a href="week03/responsive-images.html"> Responsive Image</a> |
+                        <a href="week03/bom.html">Web Storage</a>
+                    </li>
+                    <li>Week 04: 
+                        <a href="https://codepen.io/mosiahdc/pen/LYobejL">CSS Pseudo-Classes</a> | 
+                        <a href="https://codepen.io/mosiahdc/pen/LYobejL">CSS Combinators</a> | 
+                    </li>
+                    <li>Week 05: <a href=""></a></li>
+                    <li>Week 06: <a href=""></a></li>
+                </ul>
+            </div>
+    
+            <div class="card">
+                <h2>Information</h2>
+                <p>Negros Occidental, Philippines</p>
+                <p>Sunshine</p>
+                <p id="visits"></p>
+            </div>
+        </section>
+        
+
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2264.0010724633203!2d122.97464271563787!3d10.799715749259278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33af29e481795e37%3A0x27924b18d5ee454c!2sSilay%20City%20Hall!5e0!3m2!1sen!2sph!4v1716981041437!5m2!1sen!2sph" width="1000" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
     </main>
 
     <footer>
@@ -86,6 +110,7 @@
     <script src="scripts/menu.js"></script>
     <script src="scripts/mainTheme.js"></script>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 
 </html>
