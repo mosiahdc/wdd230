@@ -46,7 +46,6 @@ header span {
 	background-color: #DFD0B8;
 	color: #000;
  	position: relative;
-	left: 1rem;
 }
 
 #menu::before {
@@ -90,15 +89,18 @@ nav .active:hover {
 }
 
 main {
+    position: relative;
     display: grid;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
     align-items: center;
-    max-width: 1200px;
+    min-height: 75vh;
+    max-width: 90vw;
     margin: 0 auto;
+    
 }
 
 #hero{
-	margin: 10px auto;
+	margin: 10px 0;
 	position: relative;
 }
 
@@ -173,7 +175,7 @@ main h1 {
 
 #map iframe {
     width: 100%;
-    max-width: 1200px;
+    max-width: 90vw;
     height: 250px;
     border: 0;
 }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Ralph Mosiah Dela Cruz - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - John Ralph Mosiah Dela Cruz- Form Page">
+    <meta name="author" content="John Ralph Mosiah Dela Cruz">
+
+    <meta property="og:title" content="John Ralph Mosiah Dela Cruz - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://miro.medium.com/v2/resize:fit:720/format:webp/1*WrYFu-sg4FnHbjoqAdnCnQ.jpeg">
+    <meta property="og:url" content="https://mosiahdc.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/profile.webp" alt="John Ralph Mosiah Dela Cruz Profile" width="120" height="120">
+        <span>John Ralph Mosiah Dela Cruz</span>
+        <div id="mode">🌓</div>
+    </header>
+
+    <nav>
+        <button id="menu"></button>
+        <a href="index.html">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="week01/chamber-site-plan.html">Site Plan</a>
+        <a href="form.html" class="active">Form</a>
+    </nav>
+
+    <main>
+
+        <form method="get" action="record.html" id="form" class="card">
+            <h2>Share your Rating</h2>
+
+                <label>
+                    Username* 
+                    <input type="text" id="username" name="username" required>
+                </label>
+
+                <label>
+                    Password* 
+                    <input type="password" id="password" name="new-password" pattern="[a-zA-Z0-9]{8,}" title="At least eight (8) characters long and can only be alpha-numeric" required>
+                </label>
+
+                <label>
+                    Password Confirmation* 
+                    <input type="password" id="password-confirmed" name="password-confirmed" required>
+                </label>
+
+                <div id="match-message"></div>
+
+                <label>Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid email address" placeholder="someone@byui.edu" required></label>
+
+                <div id="rating-content">
+
+                    <label>
+                        Page Rating:
+                        <span id="rvalue">6</span>
+                    </label>
+                    <input type="range" id="rating" min="1" max="10" value="6" oninput="rvalue.innerText = this.value"> 
+                    
+                    <datalist id="rating-values">
+                        <option value="1">1</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </div>
+                
+                <button type="submit">Send Rating </button>
+
+            
+
+        </form>
+        
+    </main>
+
+    <footer>
+        <p></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/mainTheme.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form.js"></script>
+    
+</body>
+
+</html>
