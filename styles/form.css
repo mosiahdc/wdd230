@@ -2,8 +2,6 @@
     --primary-font: "Montserrat", sans-serif;
     --primary-color: #153448;
     --secondary-color: #fff;
-    --margin-bottom: 1.5rem;
-    --margin-t: -1.5rem;
 }
 
 #form {
@@ -27,7 +25,7 @@
 #match-message {
     font-family: var(--primary-font);
     color: red;
-    margin-top: var(--margin-t);
+    margin-top: -1.5rem;
 }
 
 #form input[type="text"],
@@ -64,8 +62,8 @@
 
 #form button {
     border: none;
-    background-image: linear-gradient(var(--primary-color), #2f3e46);
-    color: #fff;
+    background-image: linear-gradient(var(--primary-color), #00476d);
+    color: var(--secondary-color);
     border-radius: 6px;
     padding: 0.8rem;
     width: 100%;
@@ -74,10 +72,12 @@
     font-family: var(--primary-font);
     font-size: 1.5rem;
 }
+
 .record {
     position: relative;
     top: -30%;
 }
+
 .record h1{
     margin: 0;
 }
