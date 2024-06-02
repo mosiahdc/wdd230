@@ -349,7 +349,7 @@ th {
 }
 
 fieldset {
-    margin: 1rem;
+    margin: 2rem 1rem;
     border-radius: 6px;
 }
 
@@ -387,8 +387,8 @@ tr:nth-child(-n+5) td:nth-child(2) {
 }
 
 tr:nth-child(-n+9) td:nth-child(3) {
-    background-color: #CD7F32;
-    color: var(--accent-color-3);
+    background-color: #D18437;
+    color: #000;
 }
 
 tr:nth-child(-n+15) td:nth-child(4) {
