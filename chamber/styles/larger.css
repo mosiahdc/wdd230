@@ -5,6 +5,10 @@
         padding: 10px 80px;
     }
 
+    main {
+        padding: 0 1rem;
+    }
+
     #menu {
 		display: none;
 	}
@@ -21,7 +25,7 @@
     .hero-cta {
         top: 50%;
         left: 15%;
-        padding: 100px 35px;
+        padding: 3rem 1rem;
     }
 
     .hero-cta h2{
@@ -30,7 +34,6 @@
     
     .cards,
     #discover-container {
-        grid-template: 1fr / 1fr 1fr;
         margin: 2rem 2rem;
     }
 
@@ -49,13 +52,10 @@
         font-size: 1rem;
     }
 
-    #discover-container {
-        margin: 2rem 4rem;
+    .cards,
+    #discover-container,
+    #form-container {
         gap: 30px;
-    }
-
-    #discover-container {
-        display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
@@ -63,5 +63,34 @@
         box-shadow: 0 0 50px #161616;
     }
 
+    #form-container > #form {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #form-container > #membership-table {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #form,
+    #membership-table {
+        margin: 2rem auto;
+    }
+
+    th, td {
+        padding: 1rem;
+    }
+
+    th {
+        padding: 0.3rem !important;
+        font-size: 1.3rem;
+        text-align: center;
+        border-bottom: 1px solid black;
+    }
+    
+    td:nth-child(1) {
+        padding: 0 1rem;
+    }
     
 }
