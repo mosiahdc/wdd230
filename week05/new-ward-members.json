@@ -1,0 +1,28 @@
+{
+    "familyName": "Pring",
+    "dateMovedIn": "2021-04-01",
+    "numberOfMembers": 4,
+    "isVisitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Arnold Pring",
+            "gender": "Male",
+            "birthdate": "1994-11-10"
+        },
+        {
+            "name": "Ladie Pring",
+            "gender": "Female",
+            "birthdate": "1997-05-14"
+        },
+        {
+            "name": "Laurice Pring",
+            "gender": "Female",
+            "birthdate": "2022-04-12"
+        },
+        {
+            "name": "Laurence Pring",
+            "gender": "Male",
+            "birthdate": "2023-12-13"
+        }
+    ]
+}
