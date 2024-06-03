@@ -1,5 +1,5 @@
 const baseURL = 'https://mosiahdc.github.io/wdd230/';
-const linksURL = 'https://mosiahdc.githuccb.io/wdd230/data/links.json';
+const linksURL = 'https://mosiahdc.github.io/wdd230/data/links.json';
 
 const activityLinks = document.querySelector('#activity-links');
 
