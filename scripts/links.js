@@ -1,5 +1,5 @@
 const baseURL = 'https://mosiahdc.github.io/wdd230/';
-const linksURL = 'https://mosiahdc.github.io/wdd230/data/links.json';
+const linksURL = 'https://mosiahdc.githuccb.io/wdd230/data/links.json';
 
 const activityLinks = document.querySelector('#activity-links');
 
@@ -19,13 +19,13 @@ const displayLinks = (weeks) => {
         const weekTitle = document.createTextNode(week.week + ': ');
         li.appendChild(weekTitle);
 
-        week.activities.forEach((activity, index) => {
+        week.links.forEach((activity, index) => {
             const link = document.createElement('a');
             link.href = baseURL + activity.url;
             link.textContent = activity.title;
             li.appendChild(link);
 
-            if (index < week.activities.length - 1) {
+            if (index < week.links.length - 1) {
                 const separator = document.createTextNode(' | ');
                 li.appendChild(separator);
             }
