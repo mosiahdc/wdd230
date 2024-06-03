@@ -171,6 +171,10 @@ main h1 {
     color: #000;
 }
 
+#weather {
+    padding: 0;
+}
+
 #map {
     display: flex;
     justify-content: center;
