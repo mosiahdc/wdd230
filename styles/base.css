@@ -155,7 +155,12 @@ main h1 {
 .card p {
     padding: 1rem;
     list-style: none;
-    font-size: 14px;
+    font-size: 1rem;
+}
+
+.card li{
+    padding: 0.5rem;
+    font-size: 1rem;
 }
 
 .card p {
