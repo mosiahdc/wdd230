@@ -4,34 +4,29 @@ const linksURL = 'https://mosiahdc.github.io/wdd230/data/links.json';
 const activityLinks = document.querySelector('#activity-links');
 
 async function getLinks() {
-    try {
-        const response = await fetch(linksURL);
-        const data = await response.json();
-        displayLinks(data.weeks);
-    } catch (error) {
-        console.error('Error fetching links data:', error);
-    }
+
+    const response = await fetch(linksURL);
+    const data = await response.json();
+
+    displayLinks(data);
+
 }
 
-const displayLinks = (weeks) => {
+function displayLinks({weeks}) {
+    
     weeks.forEach(week => {
-        const li = document.createElement('li');
-        const weekTitle = document.createTextNode(week.week + ': ');
-        li.appendChild(weekTitle);
 
-        week.links.forEach((activity, index) => {
-            const link = document.createElement('a');
-            link.textContent = activity.title;
-            link.href = baseURL + activity.url;
-            li.appendChild(link);
+        const li = document.createElement("li");
+        let weekNumber = `${week.week}: `;
 
-            if (index < week.links.length - 1) {
-                const separator = document.createTextNode(' | ');
-                li.appendChild(separator);
-            }
+        week.links.forEach(link => {
+            weekNumber += `<a href="${link.url}">${link.title}</a> | `;
         });
 
+        li.innerHTML = weekNumber.slice(0, weekNumber.length - 3)
+
         activityLinks.appendChild(li);
+        
     });
 }
 
