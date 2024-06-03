@@ -25,6 +25,8 @@ function displayResults(data) {
     let desc = (data.weather[0].description).toUpperCase();
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", desc);
+    weatherIcon.setAttribute("width", 50);
+    weatherIcon.setAttribute("height", 50);
     
     weatherInfo.appendChild(weatherIcon);
     weatherInfo.appendChild(currentTemp);
