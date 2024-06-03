@@ -21,8 +21,8 @@ const displayLinks = (weeks) => {
 
         week.links.forEach((activity, index) => {
             const link = document.createElement('a');
-            link.href = baseURL + activity.url;
             link.textContent = activity.title;
+            link.href = baseURL + activity.url;
             li.appendChild(link);
 
             if (index < week.links.length - 1) {
