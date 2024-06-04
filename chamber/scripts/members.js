@@ -39,7 +39,7 @@ const displayMembers = (members) => {
         address.textContent = `${member.address}`;
         phone.textContent = `${member.phone}`;
 
-        website.innerHTML = `<a href="${member.website}" target="_blank">${member.website}</a>`;
+        website.innerHTML = `<a href="http://${member.website}" target="_blank">${member.website}</a>`;
 
         membership.setAttribute('class', 'membership');
 
