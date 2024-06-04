@@ -2,7 +2,7 @@
     "members": [
         {
             "name": "Victorias Milling Company",
-            "address": "Barangay XVI, Victorias, Neg. Occ",
+            "address": "Barangay XVI, Victorias",
             "phone": "(034) 488 7900",
             "website": "www.victoriasmilling.com",
             "image": "victorias-milling-company.webp",
@@ -11,7 +11,7 @@
         },
         {
             "name": "Bob's Restaurant",
-            "address": "Riverside, Bacolod, Neg. Occ",
+            "address": "Riverside, Bacolod",
             "phone": "(034) 435 8413",
             "website": "www.bobsbacolod.com",
             "image": "bobs-restaurant.webp",
@@ -20,7 +20,7 @@
         },
         {
             "name": "Felicia's Pastry Shop",
-            "address": "St. Doll Building, Bacolod, Neg. Occ",
+            "address": "St. Doll Building, Bacolod",
             "phone": "(034) 709 7673",
             "website": "www.feliciaspastries.com",
             "image": "felicias-pastry-shop.webp",
@@ -29,7 +29,7 @@
         },
         {
             "name": "EL IDEAL Bakery",
-            "address": "Rizal St, Silay, Neg. Occ",
+            "address": "Rizal St, Silay",
             "phone": "(034) 495 4430",
             "website": "www.elidealbakery.com",
             "image": "el-ideal-bakery.webp",
@@ -38,7 +38,7 @@
         },
         {
             "name": "The Ruins",
-            "address": "Circumferencial road, Talisay, Neg. Occ",
+            "address": "Circumferencial road, Talisay",
             "phone": "(034) 476 9448",
             "website": "www.theruins.com.ph",
             "image": "the-ruins.webp",
@@ -47,7 +47,7 @@
         },
         {
             "name": "Association of Negros Producers",
-            "address": "South Capitol Road, Bacolod, Neg. Occ",
+            "address": "South Capitol Road, Bacolod",
             "phone": "(034) 468 8857",
             "website": "www.anpnegrosshowroom.com",
             "image": "anp-showroom.webp",
@@ -56,7 +56,7 @@
         },
         {
             "name": "L'Fisher Hotel",
-            "address": "Lacson St, Bacolod, Neg. Occ",
+            "address": "Lacson St, Bacolod",
             "phone": "(034) 433 3731",
             "website": "www.lfisherhotelbacolod.com",
             "image": "l-fisher-hotel.webp",
@@ -65,7 +65,7 @@
         },
         {
             "name": "Natures Village Resort",
-            "address": "Talisay Highway, Talisay, Neg. Occ",
+            "address": "Talisay Highway, Talisay",
             "phone": "(034) 495 0808",
             "website": "www.naturesvillageresort.com",
             "image": "natures-village-resort.webp",
@@ -74,7 +74,7 @@
         },
         {
             "name": "Bongbong's Piaya and Barquillos",
-            "address": "Rizal St, Bacolod, Neg. Occ",
+            "address": "Rizal St, Bacolod",
             "phone": "(034) 446 0853",
             "website": "www.bongbongspiaya.com.ph",
             "image": "bongbongs-piaya-barquillos.webp",
@@ -83,7 +83,7 @@
         },
         {
             "name": "Virgie's Homemade Products",
-            "address": "San Sebastian, Bacolod, Neg. Occ",
+            "address": "San Sebastian, Bacolod",
             "phone": "(034) 434 1788",
             "website": "www.virgieshomemade.com",
             "image": "virgies-homemade-products.webp",
@@ -92,7 +92,7 @@
         },
         {
             "name": "18th Street Palapala",
-            "address": "18th Lacson St, Bacolod, Neg. Occ",
+            "address": "18th Lacson St, Bacolod",
             "phone": "(034) 433 9153",
             "website": "www.18thstpalapala.com",
             "image": "18th-street-palapala.webp",
@@ -101,7 +101,7 @@
         },
         {
             "name": "Sugarland Hotel",
-            "address": "Araneta St, Bacolod, Neg. Occ",
+            "address": "Araneta St, Bacolod",
             "phone": "(034) 435 2691",
             "website": "www.sugarlandhotel.com",
             "image": "sugarland-hotel.webp",
