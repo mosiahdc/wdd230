@@ -55,7 +55,7 @@ const displayMembers = (members) => {
         membership.textContent = `${member.membership_level} Member`;
 
         description.setAttribute('class', 'description');
-        description.textContent = `${member.description}`;
+        description.textContent = `"${member.description}"`;
 
 
         card.appendChild(logo);
