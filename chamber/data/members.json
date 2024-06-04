@@ -1,0 +1,112 @@
+{
+    "members": [
+        {
+            "name": "Victorias Milling Company",
+            "address": "Barangay XVI, Victorias, Negros Occidental",
+            "phone": "(034) 488 7900",
+            "website": "www.victoriasmilling.com",
+            "image": "victorias-milling-company.webp",
+            "membership_level": "Gold",
+            "description": "We transform sugarcane -- into sugar that nourishes the body"
+        },
+        {
+            "name": "Bob's Restaurant",
+            "address": "Riverside, Bacolod, Negros Occidental",
+            "phone": "(034) 435 8413",
+            "website": "www.bobsbacolod.com",
+            "image": "bobs-restaurant.webp",
+            "membership_level": "Gold",
+            "description": "Tasty and crispy strands of pork and chicken adobo—nothing beats our Ropa Vieja!"
+        },
+        {
+            "name": "Felicia's Pastry Shop",
+            "address": "St. Doll Building, Bacolod, Negros Occidental",
+            "phone": "(034) 709 7673",
+            "website": "www.feliciaspastries.com",
+            "image": "felicias-pastry-shop.webp",
+            "membership_level": "Bronze",
+            "description": "Find sweet solace in a slice of our cakes"
+        },
+        {
+            "name": "EL IDEAL Bakery",
+            "address": "Rizal St, Silay, Negros Occidental",
+            "phone": "(034) 495 4430",
+            "website": "www.elidealbakery.com",
+            "image": "el-ideal-bakery",
+            "membership_level": "NP",
+            "description": "One of the Oldest Bakery in Negros and Famous for its Guapple Pie"
+        },
+        {
+            "name": "The Ruins",
+            "address": "Circumferencial road, Talisay, Negros Occidental",
+            "phone": "(034) 476 9448",
+            "website": "www.theruins.com.ph",
+            "image": "the-ruins.webp",
+            "membership_level": "Silver",
+            "description": "One of the 12 most fascinating ruins of the world"
+        },
+        {
+            "name": "Association of Negros Producers",
+            "address": "South Capitol Road, Bacolod, Negros Occidental",
+            "phone": "(034) 468 8857",
+            "website": "www.anpnegrosshowroom.com",
+            "image": "anp-showroom.webp",
+            "membership_level": "Bronze",
+            "description": "A favorite stop-over for Negros' visitors."
+        },
+        {
+            "name": "L'Fisher Hotel",
+            "address": "Lacson St, Bacolod, Negros Occidental",
+            "phone": "(034) 433 3731",
+            "website": "www.lfisherhotelbacolod.com",
+            "image": "l-fisher-hotel.webp",
+            "membership_level": "Gold",
+            "description": "Bacolod affords the perfect accommodation for those who seek an accessible base in the city"
+        },
+        {
+            "name": "Natures Village Resort",
+            "address": "Talisay Highway, Talisay, Negros Occidental",
+            "phone": "(034) 495 0808",
+            "website": "www.naturesvillageresort.com",
+            "image": "natures-village-resort.webp",
+            "membership_level": "Silver",
+            "description": "Set against the backdrop of Mt. Marapara, offers accommodations where nature-lovers can bask in unspoiled beauty"
+        },
+        {
+            "name": "Bongbong's Piaya and Barquillos",
+            "address": "Rizal St, Bacolod, Negros Occidental",
+            "phone": "(034) 446 0853",
+            "website": "www.bongbongspiaya.com.ph",
+            "image": "bongbongs-piaya-barquillos.webp",
+            "membership_level": "Silver",
+            "description": "Fastest growing pasalubong center in the Philippines"
+        },
+        {
+            "name": "Virgie's Homemade Products",
+            "address": "San Sebastian, Bacolod, Negros Occidental",
+            "phone": "(034) 434 1788",
+            "website": "www.virgieshomemade.com",
+            "image": "virgies-homemade-products.webp",
+            "membership_level": "NP",
+            "description": "Homemade goodies known for Bacolod Pasalubong Pastillas de Manga or Mango Tart and Caramel Tart"
+        },
+        {
+            "name": "18th Street Palapala",
+            "address": "18th Lacson St, Bacolod, Negros Occidental",
+            "phone": "(034) 433 9153",
+            "website": "www.18thstpalapala.com",
+            "image": "18th-street-palapala.webp",
+            "membership_level": "Gold",
+            "description": "Best seafood destination in the whole island of Negros"
+        },
+        {
+            "name": "Sugarland Hotel",
+            "address": "Araneta St, Bacolod, Negros Occidental",
+            "phone": "(034) 435 2691",
+            "website": "www.sugarlandhotel.com",
+            "image": "sugarland-hotel.webp",
+            "membership_level": "Silver",
+            "description": "Where history and southern charm reside"
+        }
+    ]
+}
