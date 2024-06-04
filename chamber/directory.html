@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negros Chamber of Commerce - Homepage</title>
+    <meta name="description"
+        content="Negros Chamber of Commerce">
+    <meta name="author" content="John Ralph Mosiah Dela Cruz">
+
+    <meta property="og:title" content="Negros Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://mosiahdc.github.io/wdd230/chamber/images/negros-capitol-header.jpg">
+    <meta property="og:url" content="https://mosiahdc.github.io/wdd230/">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/negros-chamber.ico">
+</head>
+
+<body>
+
+    <header>
+        <h1><span>Negros Chamber of Commerce</span></h1>
+    </header>
+    
+    <nav>
+        <button id="menu"></button>
+            <a href="index.html">HOME</a>
+            <a href="discover.html">DISCOVER</a>
+            <a href="directory.html" class="active">DIRECTORY</a>
+            <a href="" class="blank"></a>
+            <a href="join.html">👉 JOIN</a>
+    </nav>
+
+    <main>
+        <div id="directory-container">
+            <div id="header-container">
+                <h1>Member's Directory</h1>
+                <div id="toggle">
+                    <img src="images/gridview-icon.png" alt="Grid View Button" id="toggle-img">
+                    <span id="toggle-text">Grid view</span>
+                </div>
+            </div>
+            
+            <div id="directory-cards" class="grid"></div>
+        </div>
+            
+        
+        
+        
+    </main>
+
+    <footer>
+        <p>Copyright 2024 | Negros Chamber of Commerce</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/members.js"></script>
+    <script src="scripts/toggle.js"></script>
+</body>
+</html>

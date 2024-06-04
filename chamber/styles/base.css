@@ -417,6 +417,119 @@ td:nth-child(5) {
     padding: 1rem 0;
 }
 
+/* --------------- DIRECTORY CONTAINER */
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0 !important;
+    border-bottom: 1px solid #000;
+}
+
+#header-container h1 {
+    margin: 0 0 0 1rem;
+    font-size: 1.7rem;
+}
+
+#toggle {
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.2rem;
+    cursor: pointer;
+    margin: 0 1rem 0 0;
+}
+
+#toggle img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+#toggle-text {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.grid section {
+    color: #000;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+    text-align: center;
+    padding: 1rem;
+}
+
+.grid .section-header {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem !important;
+}
+
+.grid section .membership{
+    font-weight: bold;
+}
+
+.grid section img, 
+.grid section p,
+.grid section .membership{
+    margin-bottom: 0.5rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 1fr;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
+    border: 2px solid var(--primary-color);
+}
+
+.list .section-header {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.list section img,
+.list .description{
+	display: none;
+}
+
+#member-np {
+    background-color: var(--accent-color-1);
+    color: var(--accent-color-3);
+}
+
+#member-bronze {
+    background-color: #D18437;
+    color: #000;
+}
+
+#member-silver {
+    background-color: #C0C0C0;
+    color: #000;
+}
+
+#member-gold {
+    background-color: #FFD700;
+    color: #000;
+}
+
 
 
 /* --------------- END --------------- */

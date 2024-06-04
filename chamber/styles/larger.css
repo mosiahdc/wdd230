@@ -92,5 +92,41 @@
     td:nth-child(1) {
         padding: 0 1rem;
     }
+
+    /* --------------- DIRECTORY CONTAINER */
+
+    #header-container {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0 !important;
+        border-bottom: 1px solid #000;
+    }
+
+    #header-container h1 {
+        font-size: 2rem;
+    }
+
+    #toggle {
+        padding: 1rem 0 0 0;
+    }
+
+    #toggle img {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    #toggle-text {
+        display: block;
+    }
+    
+    .list section {
+        grid-template-columns: 2fr 3fr 1fr 2fr 1fr;
+        margin: 0;
+        border: none;
+    }
+    
+    .list section:nth-child(even) p:nth-child(-n+5) {
+        background-color: var(--accent-color-2);
+    }
     
 }
