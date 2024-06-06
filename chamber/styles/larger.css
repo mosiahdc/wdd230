@@ -22,19 +22,27 @@
         flex: 1 1 100%;
     }
 
-    .hero-cta {
+
+    #hero-cta {
         top: 50%;
         left: 15%;
         padding: 3rem 1rem;
     }
 
-    .hero-cta h2{
+    #hero-cta h2{
         font-size: 1.5rem;
     }
     
-    .cards,
+    #hero-container,
+    #cards-container,
+    #spotlights-container,
     #discover-container {
-        margin: 2rem 2rem;
+        margin: 1rem 2rem;
+    }
+
+    #cards-container,
+    #spotlights-container {
+        padding-bottom: 1rem;
     }
 
     .card h2,
@@ -43,20 +51,24 @@
         font-size: 1.3rem;
     }
 
-    .spotlights {
+    #spotlights {
         grid-template: 1fr / 1fr 1fr 1fr;
-        margin: 2rem 2rem;
+        gap: 1rem;
     }
 
     footer p {
         font-size: 1rem;
     }
 
-    .cards,
+    #cards-container,
     #discover-container,
     #form-container {
         gap: 30px;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .weather-cards {
+        max-width: 100%;
     }
 
     .main-content .card:hover {

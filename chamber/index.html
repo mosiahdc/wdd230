@@ -44,52 +44,53 @@
     </nav>
 
     <main>
-        <section class="hero">
-            <div class="hero-cta">
+        <section id="modal-container"></section>
+
+        <section id="hero-container">
+            <div id="hero-cta">
                 <h2>Join the Chamber</h2>
                 <p>Benefit from being a member now</p>
-                <button>JOIN</button>
+                <a href="join.html"><button>JOIN</button></a>
             </div>
         </section>
 
-        <section class="cards">
+        <section id="cards-container">
 
             <div class="card">
                 <h2>Events</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cumque reprehenderit officiis, blanditiis quis officia excepturi temporibus quisquam maiores, aut quae assumenda distinctio, quos molestiae saepe ipsam sunt voluptate magni fugit porro eos vel tempora qui? Dolor ullam, veritatis sunt odit facilis nihil blanditiis, totam eius est laborum in debitis.
-                </p>
+                <div id="events">
+                    <ul>
+                        <li>
+                            1. <b>Panaad sa Negros Festival</b> - Panaad is the Hiligaynon word for "vow" or "promise" coming from the root-word saad; the festival is a form of thanksgiving to Divine Providence and commemoration of a vow in exchange for a good life. 
+                        </li>
+                        
+                        <li>
+                            2. <b>Masskara Festival</b> - Prominent feature of the festival and is always adorned with smiling faces, giving rise to Bacolod being called the "City of Smiles".
+                            
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="card">
-                <h2>Weather</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus quia sunt earum sequi quibusdam magnam rem non similique nobis assumenda totam nemo optio, dolor, dicta deleniti. Sunt sequi harum itaque.
-                </p>
+                <h2>Weather in Negros</h2>
+                <div id="weather">
+                    
+                </div>
+                
             </div>
             
         </section>
 
         <hr>
 
-        <section class="spotlights">
-            
-            <div class="spotlight">
-                <h2>Spotlight #1</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus quia sunt earum sequi quibusdam magnam rem non similique nobis assumenda totam nemo optio, dolor, dicta deleniti. Sunt sequi harum itaque.
-                </p>
-            </div>
+        <section id="spotlights-container">
 
-            <div class="spotlight">
-                <h2>Spotlight #2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus quia sunt earum sequi quibusdam magnam rem non similique nobis assumenda totam nemo optio, dolor, dicta deleniti. Sunt sequi harum itaque.
-                </p>
-            </div>
+            <h2>Member Spotlight</h2>
 
-            <div class="spotlight">
-                <h2>Spotlight #3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus quia sunt earum sequi quibusdam magnam rem non similique nobis assumenda totam nemo optio, dolor, dicta deleniti. Sunt sequi harum itaque.
-                </p>
+            <div id="spotlights">
+                
             </div>
-
         </section>
         
     </main>
@@ -101,6 +102,9 @@
 
     <script src="scripts/menu.js"></script>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/banner.js"></script>
 
 </body>
 </html>
