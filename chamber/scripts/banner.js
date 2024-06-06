@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const today = new Date().getDay();
 
-    if (today >= 1 && today <= 5) {
+    if (today >= 1 && today <= 3) {
         modal.style.display = 'block';
         document.body.classList.add('modal-open');
     }
