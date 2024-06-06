@@ -41,6 +41,7 @@ header span {
     font-weight: bold;
     padding: 10px 30px;
 }
+
 /* --------------- END --------------- */
 
 
@@ -175,7 +176,7 @@ body.modal-open {
 
 #hero-container {
     height: 500px;
-    background: url("../images/hero-image.jpg");
+    background: url("../images/hero-image.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -529,7 +530,7 @@ td:nth-child(5) {
     border-bottom: 1px solid #000;
 }
 
-#header-container h1 {
+#header-container h2 {
     margin: 0 0 0 1rem;
     font-size: 1.7rem;
 }
